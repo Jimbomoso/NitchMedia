@@ -35,8 +35,7 @@ body {
 
 .brand-logo img {
   display: flex;
-  padding: 1rem;
-  width: 450px;
+  width: 600px;
 }
 
 .main-nav ul {
