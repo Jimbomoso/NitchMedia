@@ -32,7 +32,7 @@
         width: 100%;
     }
     .home-main-section {
-      display: inline-block;
+      display: block;
       text-align: center;
     }
     .main-header {
@@ -45,7 +45,12 @@
         width: 300px;
     }
     .btn {
-        margin: 2rem auto;
+        margin: 0 auto;
+    }
+
+    .title, .subtitle, p {
+        width: 95%;
+        line-height: 2em;
     }
   }
 
