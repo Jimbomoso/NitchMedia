@@ -7,20 +7,22 @@
     <meta name="description" content="NitchMedia">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/800c199e82.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/Logo.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.png" />
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="stylesheet" href="./assets/contact.css">
 </head>
 
-<body class="container full-height-grow">
+<body onload="randomImage()" class="container full-height-grow">
     <header class="main-header">
+        <img id="icon" class="text-focus-in"  src="assets/logoIcon.png" alt="icon">
         <a href="./index.html" class="brand-logo">
-            <img class="text-focus-in" src="assets/Logo.svg" alt="logo">
+            <img id="logo" src="" alt="logo">
         </a>
         <nav class="main-nav">
             <ul>
                 <li><a href="about.html" class="text-focus-in">About</a></li>
                 <li><a href="contact.html" class="text-focus-in">Contact</a></li>
+                <li><a href='https://twitter.com/MediaNitch' class="text-focus-in" target='blank'> <i class="fab fa-twitter-square"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -41,15 +43,13 @@
     </section>
     <footer>
         <p>
-        <div class='icons'>
-            <a href='https://twitter.com/MediaNitch' target='blank'> <i class="fab fa-twitter-square"></i></a>
-        </div>
         &copy
         <script type='text/JavaScript'> document.write(new Date().getFullYear()); </script> NitchMedia, LLC, All
         Rights Reserved
         </p>
     </footer>
 
+    <script src="assets/main.js" async defer></script>
 </body>
 
 </html>

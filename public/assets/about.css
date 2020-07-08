@@ -7,18 +7,27 @@
 }
 
 .title {
-    color: rgba(39, 37, 37, 0.795);
-    text-align: center;
+    color: rgba(255, 255, 255, 0.692);
+    text-align: left;
+}
+
+.subtitle {
+    text-align: left;
 }
 
 .call-to-action {
     line-height: 3rem;
 }
 
-p {
+.call-to-action p {
     color: #1762A7;
     font-size: 1.5em;
     text-align: center;
+}
+
+.btn {
+    background-color: #11FEEF;
+    color: inherit;
 }
 
 @media(max-width: 768px) {
