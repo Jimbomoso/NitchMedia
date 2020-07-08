@@ -18,4 +18,5 @@ images[1] = "assets/Logo3.svg";
 images[2] = "assets/Logo4.svg";
 images[3] = "assets/Logo5.svg";
 images[4] = "assets/Logo.svg";
+images[5] = "assets/Logo6.svg";
 
