@@ -27,7 +27,7 @@
     align-self: center;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 768px) {
     .container {
         width: 100%;
     }
@@ -35,14 +35,20 @@
       display: block;
       text-align: center;
     }
+
+    .main-video {
+        width: 100%;
+    }
+
     .main-header {
         padding: 1rem;
+        width: 100%;
     }
     .main-nav ul {
-        flex-direction: column;
+        flex-direction: column;/
     }
     .brand-logo img {
-        width: 300px;
+        width: 250px;
     }
     .btn {
         margin: 0 auto;
