@@ -1,0 +1,45 @@
+.about-main-section {
+    display: flex;
+    /* align-items: stretch; */
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.title {
+    color: rgba(39, 37, 37, 0.795);
+}
+
+.call-to-action {
+    line-height: 3rem;
+}
+
+p {
+    color: #1762A7;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media(max-width: 700px) {
+    .container {
+        width: 100%;
+    }
+    .home-main-section {
+      display: inline-block;
+      text-align: center;
+    }
+    .main-header {
+        padding: 1rem;
+    }
+    .main-nav ul {
+        flex-direction: column;
+    }
+    .brand-logo img {
+        width: 300px;
+    }
+    .btn {
+        margin: 2rem auto;
+    }
+  }
+
+
