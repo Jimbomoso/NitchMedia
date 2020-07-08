@@ -126,5 +126,35 @@ footer {
   }
 }
 
+@media(max-width: 768px) {
+  .container {
+      width: 100%;
+  }
+  .home-main-section {
+    display: block;
+    text-align: center;
+  }
+  .main-video {
+      width: 100%;
+  }
+  .main-header {
+      padding: 1rem;
+      width: 100%;
+  }
+  .main-nav ul {
+      flex-direction: column;
+  }
+  .brand-logo img {
+      width: 250px;
+  }
+  .btn {
+      margin: auto;
+  }
+  .title, .subtitle, p {
+      width: 95%;
+      line-height: 2em;
+  }
+}
+
 
 
