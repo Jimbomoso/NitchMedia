@@ -1,6 +1,6 @@
 
 
-let imageArr = ['Logo.svg','Logo2.svg','Logo3.svg','Logo4.svg','Logo5.svg','Logo6.svg','Logo7.svg','Logo8.svg','Logo9.svg','Logo10.svg'];
+let imageArr = ['Logo.svg','Logo2.svg','Logo3.svg','Logo4.svg','Logo5.svg','Logo6.svg','Logo7.svg','Logo8.svg','Logo9.svg'];
 // images[0] = "assets/Logo.svg";
 // images[1] = "assets/Logo2.svg";
 // images[2] = "assets/Logo7.svg";
