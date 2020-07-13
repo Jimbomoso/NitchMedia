@@ -1,20 +1,4 @@
-// function displayNextImage() {
-//     x = (x === images.length - 1) ? 0 : x + 1;
-//     document.getElementById("logo").src = images[x];
-// }
 
-// // function displayPreviousImage() {
-// //     x = (x <= 0) ? images.length - 1 : x - 1;
-// //     document.getElementById("logo").src = images[x];
-// // }
-
-// function randomImage() {
-//     let x = Math.floor((Math.random() * 10) + 1);
-// }
-
-// function logoCycle() {
-//     setInterval(displayNextImage, 500);
-// }
 
 let imageArr = ['Logo.svg','Logo2.svg','Logo3.svg','Logo4.svg','Logo5.svg','Logo6.svg','Logo7.svg','Logo8.svg','Logo9.svg','Logo10.svg'];
 // images[0] = "assets/Logo.svg";
