@@ -15,7 +15,6 @@
 
 .home-main-section .main-video {
     flex-grow: 1;
-    max-height: 70vh;
     min-width: 30vw;
     box-shadow: 0px 1px 9px 0px white;
 }
